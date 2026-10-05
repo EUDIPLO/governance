@@ -1,4 +1,8 @@
 teams:
+  - name: eudiplo-admins
+    maintainers:
+      - cre8
+    members: []
   - name: eudiplo-maintainers
     maintainers:
       - cre8
@@ -15,6 +19,7 @@ repositories:
     visibility: public
   - name: eudiplo
     teams:
+      eudiplo-admins: admin
       eudiplo-maintainers: maintain
       lf-staff: admin
     visibility: public
