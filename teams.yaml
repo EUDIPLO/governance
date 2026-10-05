@@ -1,0 +1,25 @@
+teams:
+  - name: eudiplo-maintainers
+    maintainers:
+      - cre8
+    members: []
+  - name: lf-staff
+    maintainers:
+      - ryjones
+    members: []
+repositories:
+  - name: .github
+    teams:
+      eudiplo-maintainers: maintain
+      lf-staff: admin
+    visibility: public
+  - name: eudiplo
+    teams:
+      eudiplo-maintainers: maintain
+      lf-staff: admin
+    visibility: public
+  - name: governance
+    teams:
+      eudiplo-maintainers: maintain
+      lf-staff: admin
+    visibility: public
