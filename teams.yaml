@@ -2,10 +2,14 @@ teams:
   - name: eudiplo-maintainers
     maintainers:
       - cre8
-    members: []
+    members:
+      - lukasjhan
   - name: lf-staff
     maintainers:
+      - jwagantall
+      - LF-Europe
       - ryjones
+      - thelinuxfoundation
     members: []
 repositories:
   - name: .github
